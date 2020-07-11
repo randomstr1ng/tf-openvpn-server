@@ -48,7 +48,7 @@ resource "digitalocean_firewall" "openvpn" {
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
   inbound_rule {
-    protocol         = "icmp"terr
+    protocol         = "icmp"
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
   outbound_rule {
