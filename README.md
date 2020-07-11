@@ -1,4 +1,4 @@
-# terraform-openvpn-server
+# Deploy OpenVPN Server via Terraform on DigitalOcean
 This Terraform configuration will deploy an OpenVPN Server at DigitalOcean and download the configuration into the current directory.
 
 ## Requirements
