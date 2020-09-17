@@ -1,6 +1,6 @@
 resource "digitalocean_droplet" "server" {
-	image = "ubuntu-18-04-x64"
-	name = "${var.hostname}"
+	image = "ubuntu-20-04-x64"
+  name = "${var.hostname}"
 	region = "${var.region}"
 	size = "s-1vcpu-1gb"
 	ssh_keys = var.sshkeys
